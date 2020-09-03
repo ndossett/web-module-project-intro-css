@@ -3,10 +3,10 @@
 
 /* General Styles */
 * {
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
-    max-width:100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
 }
 html {
     font-size: 62.5%;
@@ -20,35 +20,58 @@ body {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 4.5rem;
 }
 
+p {
+    font-size: 2rem;
+}
 a {
     text-decoration: none;
 }
 /* End General Styles */
 /* Header Styles */
+header {
+    width: 90%;
+    margin: 0 auto;
+}
 
 header nav {
     display: inline-block;
     width: 100%;
-    margin-left: 20%;
+    margin: 3% auto;
+    text-align: center;
 }
 
-h1 {
-    font-size: 15px
-}
-
-.yosemite-park img {
-    max-width: 8%;
-    border-radius: 75px;
-    margin-left: 8%;
-}
-
-a {
-    margin: 3rem;
+nav a {
+    display: inline-block;
     padding: 1%;
     color: white;
 }
+
+.park-guide {
+    width: 90%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.park-guide img {
+    display: inline-block;
+    max-width: 25%;
+    border-radius: 50%;
+}
+
+.park-text {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    padding: 8%;
+}
+
+.park-text p, h1 {
+    margin-bottom: 4%;
+}
+
 .plan {
     background: #FF764E;
     border-radius: 10%;
@@ -57,6 +80,7 @@ a {
 .learn {
     background: #5ED3EB;
     border-radius: 15%; 
+    margin: 0 10%;
 }
 
 .involved {
@@ -67,7 +91,52 @@ a {
 
 .main {
     background: #DDB9A3;
+    width: 90%;
     color: white;
-    border: solid 1px #DDB9A3; 
-    margin: 0 auto;  
+    text-align: center;
+    margin: 0 auto; 
+    padding: 1.5% 
+}
+
+.info {
+    width: 100%;
+    margin: 0 auto;
+}
+.fire {
+    text-align: center;
+    margin: 5% auto;
+    width: 40%;
+}
+
+.fire img {
+    width: 25rem;
+}
+
+.reservations {
+    text-align: center;
+    margin: 5% auto;
+    width: 40%;
+}
+
+.reservations img {
+    width: 25rem;
+}
+/* end main syles */
+/* footer styles */
+footer {
+    background: #F9E7DC;
+    width: 100%;
+}
+
+footer nav {
+    padding: 4%;
+    text-align: center;
+}
+
+.foot-pic {
+    background: url("assets/footer_img.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
 }
